@@ -1,3 +1,15 @@
+html {
+  font-family: "Open Sans",Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  -webkit-text-size-adjust: 100%;
+}  
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .topic-container {
   text-align: center;
@@ -20,7 +32,7 @@
 Canvas. Tengel Aas Sandtrø. CompletePage_02_Simple-Burger-menu
 
 https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd-a7de-b09800a14526**/
-/*
+
 
 #burger-toggle{display:none;} 
 
@@ -78,4 +90,4 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
 
   }
 }
-*/
+
