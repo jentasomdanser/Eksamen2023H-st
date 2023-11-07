@@ -1,9 +1,12 @@
-html {
+.class-for-topic {
   font-family: "Open Sans",Arial,Helvetica,sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
   -webkit-text-size-adjust: 100%;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 }  
 
 p {
@@ -11,11 +14,6 @@ p {
     margin-bottom: 10px;
 }
 
-.topic-container {
-  text-align: center;
-  justify-content: center;
-  align-content: center;
-}
 .box-container {
   background-color: white;
   margin-left: 20px;
@@ -45,7 +43,6 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
     right: 0;
   }
   
-
   .menu li{padding-right: 4rem;}
 }
 
