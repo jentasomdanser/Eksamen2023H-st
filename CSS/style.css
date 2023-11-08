@@ -1,3 +1,4 @@
+
 .class-for-topic {
   font-family: "Open Sans",Arial,Helvetica,sans-serif;
   font-size: 16px;
@@ -24,6 +25,36 @@ p {
   font-size: 16px;
   text-align: center;
 }
+
+/*https://www.youtube.com/watch?v=NHb3o3sP9iA*/
+
+
+.tc-container {
+  width: 130px;
+  height: 195px;
+  margin-top:40px;
+  position: relative;
+}
+
+.tc-container img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.top-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity:0;  
+  transition: all 0.7s;
+}
+.top-img:hover {
+  opacity:1;
+}
+
+
+
 
 /** Hamburger menu ala Tengel, 
 
