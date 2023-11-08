@@ -63,6 +63,10 @@ body{
   color: rgb(212, 145, 19);
   font-size: 18px;
 }
+
+.oslomet{
+  background: rgba(255, 166, 0, 0.87);
+}
   
 
 .imgFFN img{
