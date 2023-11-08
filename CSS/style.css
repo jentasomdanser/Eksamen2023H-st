@@ -48,8 +48,11 @@ body{
   font-size: xx-large;
 }
 
-#author{
+#author1{
   color: rgb(212, 145, 19);
+}
+#author2{
+  color: rgb(212, 25, 19)
 }
 
 .text-boxes{
