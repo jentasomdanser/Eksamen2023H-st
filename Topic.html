@@ -16,34 +16,37 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
 </head>
 
 
-<body class="class-for-topic">
+<body>
 
     <header id="header">
-        <nav class="nav1">
+        <nav class="ffncolor">
             <input id="burger-toggle" type="checkbox">
             <label class="humburger-toggle-container" for="burger-toggle">
                 <div class="menu-icon"></div>
             </label>
-            
-                <div class="logo">
-                    <div class="imgFFN">
-                        <div class="hover">
-                            <img src="image\avisnavn.png" alt="Fake Fantasy News" />
-                        </div>
+           
+
+            <div class="logo">
+                <div class="imgFFN">
+                    <div class="hover">
+                        <img src="image\avisnavn.png" alt="Fake Fantasy News" />
                     </div>
                 </div>
+            </div>
             
-            <ul class="menu">
-                <li><a class="nav" href="index.html">Introduction</a></li>
-                <li><a class="nav" href="accesibility.html">Accessibility</a></li>
-                <li><a class="nav" href="topic.html">Data1100</a></li>
-                <li><a class="nav" href="room1.html">Room1</a></li>
-                <li><a class="nav" href="room2.html">Room2</a></li>
-            </ul>
+                <ul class="menu">
+                    <li><a class="nav" href="index.html">Introduction</a></li>
+                    <li><a class="nav" href="accesibility.html">Accessibility</a></li>
+                    <li><a class="nav" href="topic.html">Data1100</a></li>
+                    <li><a class="nav" href="room1.html">Room1</a></li>
+                    <li><a class="nav" href="room2.html">Room2</a></li>
+                </ul>  
         </nav>
     </header>
 
     <main>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
 
         <div class="cover">
             <h1>Driving Sustainable Change through Technology:</h1>
@@ -80,7 +83,20 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
                     affordable and clean energy.
                     Let's delve into how technology plays a role in advancing these goals.</p>
 
-                <img src="image/goalsSDG.webp" alt="17 UNs Sustainable Development Goals">
+
+                <picture>
+                    
+                    <source media="(min-width: 1000px)" srcset="image/goalsSDG.webp">
+                    
+                    <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                        
+                    <img srcset="image/goalsSDG-small.png" alt="Link to FN´s Goals, basis on our topic article">
+                        
+                    <!--srcset, not src-->     
+                        
+                </picture>
+
+
                 <!-- Picture Source: https://unemg.org/our-work/supporting-the-sdgs/the-un-sustainable-development-goals/ -->
             </div>
 
@@ -92,8 +108,19 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
                     Precision agriculture,
                     IoT-driven farming, and genetically modified crops increase food production while minimizing waste.
                 </p>
-
-                <img src="image/Agriculture_technology.webp" alt="A modern, technology-driven farm in action">
+                
+                <picture>
+                    
+                    <source media="(min-width: 1000px)" srcset="image/agriculture-technology.webp">
+                
+                    <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                    
+                    <img srcset="image/agriculture-technology-small.png" alt="A modern, technology-driven farm in action">
+                    
+                    <!--srcset, not src-->     
+                    
+                </picture>
+        
                 <!-- Picture Source: https://eos.com/blog/agricultural-technology/ -->
             </div>
 
@@ -106,7 +133,18 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
                     Clean energy technologies not only reduce emissions but also make energy more affordable and
                     accessible.</p>
 
-                <img src="image/solar-panels.webp" alt="A solar panel installation under a clear blue sky">
+                <picture>
+                    
+                    <source media="(min-width: 1000px)" srcset="image/solar-panels.webp">
+                    
+                    <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                        
+                    <img srcset="image/solar-panels-small.png" alt="A solar panel installation under a clear blue sky">
+                        
+                    <!--srcset, not src-->     
+                        
+                </picture>
+
                 <!-- Picture Source: https://wallpapers.com/background/solar-panel-1280-x-853-background-qkbqfv7vzv8ndoqy.html -->
             </div>
 
@@ -118,8 +156,18 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
                     sanitation,
                     reducing waterborne diseases and promoting access to safe drinking water.</p>
 
-                <img src="image/advanced-wastewater-plant.webp"
-                    alt="A wastewater treatment plant using advanced technology">
+                <picture>
+                    
+                    <source media="(min-width: 1000px)" srcset="image/advanced-wastewater-plant.webp">
+                        
+                    <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                            
+                    <img srcset="image/advanced-wastewater-plant-small.png" alt="A wastewater treatment plant using advanced technology">
+                            
+                    <!--srcset, not src-->     
+                
+                </picture>
+
                 <!-- Picture by SolNet Water; Source:  https://www.netsolwater.com/working-of-an-advanced-wastewater-treatment-plant.php?blog=4000 -->
             </div>
 
@@ -129,7 +177,18 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
                 <p>Technology can be a powerful enabler of gender equality by providing access to education, healthcare,
                     and economic opportunities for women and girls, bridging the digital gender gap.</p>
 
-                <img src="image/women-tech.webp" alt="Women in a tech workshop, symbolizing empowerment">
+                <picture>
+                    
+                     <source media="(min-width: 1000px)" srcset="image/women-tech.webp">
+                        
+                    <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                                
+                    <img srcset="image/women-tech-small.png" alt="Women in a tech workshop, symbolizing empowerment">
+                                
+                    <!--srcset, not src-->     
+                    
+                </picture>    
+            
                 <!-- Picture by: Image from Getty Images; Source: 
                 https://www.google.com/search?client=safari&sca_esv=576128351&rls=en&sxsrf=AM9HkKmY9id0fMxGPQ4v5_9hdgxrb7zvrA:1698160476201&q=women+in+a+tech+workshop.empowerment&tbm=isch&source=lnms&sa=X&ved=2ahUKEwja_9Hf_I6CAxWFVfEDHSWNBvcQ0pQJegQIDBAB&biw=873&bih=801&dpr=2#imgrc=mzJZncRWBp4BZM -->
             </div>
@@ -141,8 +200,18 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
                 <p>E-learning platforms and digital resources enable quality education for all, breaking down barriers
                     and making learning accessible anytime, anywhere.</p>
 
-                <img src="image/tecnologia-educativa.webp"
-                    alt="A diverse group of students using digital devices in a virtual classroom">
+                <picture>
+                    
+                     <source media="(min-width: 1000px)" srcset="image/tecnologia-educativa.webp">
+                           
+                    <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                                   
+                    <img srcset="image/tecnologia-educativa-small.png" alt="A diverse group of students using digital devices in a virtual classroom">
+                                   
+                    <!--srcset, not src-->     
+                       
+                 </picture>   
+
                 <!-- Picture by Dexway Communication; Source: https://www.dexway.com/5-benefits-of-educational-technology-in-learning-english/ -->
             </div>
 
@@ -153,7 +222,18 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
                 <p>Smart cities, equipped with IoT infrastructure, contribute to sustainable urban development, reducing
                     energy consumption, traffic congestion, and waste generation.</p>
 
-                <img src="image/Smart-Cities.webp" alt="A cityscape highlighting smart city technologies">
+                <picture>
+                    
+                    <source media="(min-width: 1000px)" srcset="image/smart-cities.webp">
+                              
+                    <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                                      
+                    <img srcset="image/smart-cities-small.png" alt="A cityscape highlighting smart city technologies">
+                                      
+                    <!--srcset, not src-->     
+                          
+                </picture>   
+
                 <!-- Picture by Monomita Chakraborty; Source: https://www.analyticsinsight.net/understanding-the-role-of-smart-cities-its-impact-and-future/ -->
             </div>
 
@@ -164,7 +244,18 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
                 <p>innovations play a significant role in mitigating climate change. Renewable energy, electric
                     vehicles, and carbon capture and storage are key tools in combating climate change.</p>
 
-                <img src="image/wind-farm.webp" alt="A wind farm with wind turbines generating clean energy">
+                <picture>
+                    
+                    <source media="(min-width: 1000px)" srcset="image/wind-farm.webp">
+                                  
+                     <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                                          
+                    <img srcset="image/wind-farm-small.png" alt="A wind farm with wind turbines generating clean energy">
+                                          
+                    <!--srcset, not src-->     
+                              
+                </picture>   
+
                 <!-- Picture source: https://www.edfenergy.com/energywise/all-you-need-to-know-about-wind-power -->
             </div>
 
@@ -175,7 +266,19 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
                 <p> solutions promote responsible consumption and production by tracking and reducing resource waste,
                     recycling materials, and optimizing supply chains.</p>
 
-                <img src="image/tech-recicling.webp" alt="A recycling facility using automated sorting systems">
+                <picture>
+                    
+                    <source media="(min-width: 1000px)" srcset="image/tech-recicling.webp">
+                                      
+                    <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                                              
+                    <img srcset="image/tech-recicling-small.png" alt="A recycling facility using automated sorting systems">
+                                              
+                    <!--srcset, not src-->     
+                                  
+                </picture>  
+
+
                 <!-- Picture by Recicling Product News; Source: 
                 https://www.recyclingproductnews.com/article/33891/commentary-automating-recycling-is-good-strategy-during-covid-19-and-for-the-future -->
             </div>
@@ -187,8 +290,18 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
                 <p>Innovative technologies like satellite monitoring and underwater drones help protect marine
                     ecosystems and biodiversity on land, preserving life below water and on land.</p>
 
-                <img src="image/coralreef-drone.webp"
-                    alt="A coral reef conservation project utilizing underwater drones">
+                <picture>
+                    
+                    <source media="(min-width: 1000px)" srcset="image/coralreef-drone.webp">
+                                          
+                    <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                                                  
+                    <img srcset="image/coralreef-drone-small.png" alt="A coral reef conservation project utilizing underwater drones">
+                                                  
+                    <!--srcset, not src-->     
+                                      
+                </picture>  
+    
                 <!-- Picture by Dominik Fretz/Sofar; Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.outsideonline.com%2Foutdoor-adventure%2Fexploration-survival%2Focean-exploration-research-drones%2F&psig=AOvVaw1UdqwMtJZPn3VosxKJtLW7&ust=1698248685045000&source=images&cd=vfe&opi=89978449&ved=0CBMQjhxqFwoTCKi10L6Dj4IDFQAAAAAdAAAAABAE -->
             </div>
 
@@ -203,8 +316,18 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
                     technology
                     in our pursuit of a better future.</p>
 
-                <img src="image/diversityINtech.webp"
-                    alt="Multicultural teams working thru technology to make a better world with sustainability in focus">
+                <picture>
+                    
+                    <source media="(min-width: 1000px)" srcset="image/diversity-in-tech.webp">
+                                              
+                    <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                                                      
+                    <img srcset="image/diversity-in-tech-small.png" alt="Multicultural teams working thru technology to make a better world with sustainability in focus">
+                                                      
+                    <!--srcset, not src-->     
+                                          
+                </picture>
+
                 <!-- Picture by Grupo Nos; Source: https://www.nos.pt/en/institutional/sustainability/for-a-digital-future -->
 
                 <p>As we continue to explore the endless possibilities at the intersection of sustainability and
@@ -217,8 +340,6 @@ The HTML5 specification encourages web developers to use the UTF-8 character set
     </main>
 
     <footer class="footer-box">
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
 
         <p>Håvard Elgsaas: s375084@oslomet.no; Yasmin N. Garcia Avalo: yagar3121@oslomet.no; Emma Agnethe Rasch Eldby:
             emeld7593@oslomet.no</p>

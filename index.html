@@ -41,33 +41,36 @@ This was not perfect!! But a quick fix.
 <body>
 
     <header id="header">
-        <nav class="nav1">
+        <nav class="ffncolor">
             <input id="burger-toggle" type="checkbox">
             <label class="humburger-toggle-container" for="burger-toggle">
                 <div class="menu-icon"></div>
             </label>
            
 
-                <div class="logo">
-                    <div class="imgFFN">
-                        <div class="hover">
-                            <img src="image\avisnavn.png" alt="Fake Fantasy News" />
-                        </div>
+            <div class="logo">
+                <div class="imgFFN">
+                    <div class="hover">
+                        <img src="image\avisnavn.png" alt="Fake Fantasy News" />
                     </div>
                 </div>
+            </div>
             
-
-            <ul class="menu">
-                <li><a class="nav" href="index.html">Introduction</a></li>
-                <li><a class="nav" href="accesibility.html">Accessibility</a></li>
-                <li><a class="nav" href="topic.html">Data1100</a></li>
-                <li><a class="nav" href="room1.html">Room1</a></li>
-                <li><a class="nav" href="room2.html">Room2</a></li>
-            </ul>
+                <ul class="menu">
+                    <li><a class="nav" href="index.html">Introduction</a></li>
+                    <li><a class="nav" href="accesibility.html">Accessibility</a></li>
+                    <li><a class="nav" href="topic.html">Data1100</a></li>
+                    <li><a class="nav" href="room1.html">Room1</a></li>
+                    <li><a class="nav" href="room2.html">Room2</a></li>
+                </ul>  
         </nav>
     </header>
+    
 
     <main>
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
 
         <div class="cover">
             <!--H1: Fake Fantasy News-->
@@ -114,8 +117,21 @@ This was not perfect!! But a quick fix.
             <div class="img-center">
                 <!-- <source srcset="images/ufoship-oslomet-small.webp" media="(max-width: 850px)">
                  <source srcset="images/ufoship-oslomet.webp" media="(max-width: 1500px)">      -->
-                <a href="accesibility.html"><img src="image/accessibility.png"
-                        alt="FN´s Goals, basis on our topic article"></a>
+                
+                 <a href="accesibility.html">
+                    <picture>
+                    
+                            <source media="(min-width: 800px)" srcset="image/accessibility.png">
+                        
+                            <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                            
+                            <img srcset="image/accessibility-small.png" alt="Accessibility, link to accessibility page">
+                            
+                            <!--srcset, not src-->     
+
+                    </picture>
+                </a>
+
 
             </div>
             <a href="accesibility.html">
@@ -127,7 +143,23 @@ This was not perfect!! But a quick fix.
 
             <h3> Find more about: "Sustainable Change through Technology"</h3>
             <div class="img-center">
-                <a href="topic.html"><img src="image/goalsSDG.webp" alt="FN´s Goals, basis on our topic article"></a>
+                <a href="topic.html">
+                    
+                    <picture>
+                    
+                        <source media="(min-width: 1000px)" srcset="image/goalsSDG.webp">
+                    
+                        <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                        
+                        <img srcset="image/goalsSDG-small.png" alt="Link to FN´s Goals, basis on our topic article">
+                        
+                        <!--srcset, not src-->     
+                        
+                    </picture>
+                </a>
+                    
+           
+
             </div>
 
 

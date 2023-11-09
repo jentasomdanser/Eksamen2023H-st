@@ -36,27 +36,28 @@ This was not perfect!! But a quick fix.
 <body>
 
     <header id="header">
-        <nav class="nav1">
+        <nav class="ffncolor">
             <input id="burger-toggle" type="checkbox">
             <label class="humburger-toggle-container" for="burger-toggle">
                 <div class="menu-icon"></div>
             </label>
+           
 
-                <div class="logo">
-                    <div class="imgFFN">
-                        <div class="hover">
-                            <img src="image\avisnavn.png" alt="Fake Fantasy News" />
-                        </div>
+            <div class="logo">
+                <div class="imgFFN">
+                    <div class="hover">
+                        <img src="image\avisnavn.png" alt="Fake Fantasy News" />
                     </div>
                 </div>
-
-            <ul class="menu">
-                <li><a class="nav" href="index.html">Introduction</a></li>
-                <li><a class="nav" href="accesibility.html">Accessibility</a></li>
-                <li><a class="nav" href="topic.html">Data1100</a></li>
-                <li><a class="nav" href="room1.html">Room1</a></li>
-                <li><a class="nav" href="room2.html">Room2</a></li>
-            </ul>
+            </div>
+            
+                <ul class="menu">
+                    <li><a class="nav" href="index.html">Introduction</a></li>
+                    <li><a class="nav" href="accesibility.html">Accessibility</a></li>
+                    <li><a class="nav" href="topic.html">Data1100</a></li>
+                    <li><a class="nav" href="room1.html">Room1</a></li>
+                    <li><a class="nav" href="room2.html">Room2</a></li>
+                </ul>  
         </nav>
     </header>
 
@@ -64,11 +65,21 @@ This was not perfect!! But a quick fix.
         <!--Stonehenge: https://www.nytimes.com/2020/07/29/science/stonehenge-archaeology-sarsens.html-->
 
         <p>&nbsp;</p>
+        <p>&nbsp;</p>
 
         <div class="cover">
 
-            <img src="image/singing-stone-henge.webp"
-                alt="Magical moment catched with music-camera of single stone singing to/with stone henge stones.">
+            <picture>
+                    
+                <source media="(min-width: 1000px)" srcset="image/singing-stone-henge.webp">
+            
+                <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                
+                <img srcset="image/singing-stone-henge-small.png" alt="Magical moment catched with music-camera of single stone singing to/with stone henge stones.">
+                
+                <!--srcset, not src-->     
+                
+            </picture>
 
             <p>&nbsp;</p>
 

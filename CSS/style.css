@@ -21,22 +21,6 @@
   width: 175px;
 }
 
-nav ul {
-  padding-block: 29.3px;
-  margin: 0px;
-  font-size: 25px;
-  text-align: center;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-.nav1 {
-  background-color: #7EA8DF;
-}
-
 
 body {
   background-color: #ffffff;
@@ -64,6 +48,7 @@ body {
   margin-right: 80px;
 }
 
+
 .img-center {
   align-content: center;
   justify-content: center;
@@ -86,13 +71,6 @@ body {
   border-radius: 50%;
   border: 5px solid #7EA8DF;
 }
-
-/*
-.imgOslomet img{
-  max-width: 100%;
-  width: 900px;
-}
-*/
 
 
 .hover>img:hover {
@@ -176,6 +154,7 @@ p {
 
 */
 
+/*Door animation, change between two images, https://www.youtube.com/watch?v=NHb3o3sP9iA*/
 .tc-container {
   width: 400px;
   height: 600px;
@@ -201,9 +180,6 @@ p {
 }
 
 
-
-
-
 /** Hamburger menu ala Tengel, 
 
 Canvas. Tengel Aas Sandtrø. CompletePage_02_Simple-Burger-menu
@@ -217,24 +193,38 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
 
 @media (min-width: 701px) {
   .menu {
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     list-style-type: none;
     right: 0;
+    
+    padding-block: 29.3px;
+    margin: 0px;
+    text-align: center;
+    gap: 30px;
   }
 
   .menu li {
     padding-right: 4rem;
   }
+
+  .ffncolor{
+    background-color: #7EA8DF;
+  }
+  
+  .oslometcolor{
+    background-color: #eca200;
+  }
 }
 
 @media (max-width: 700px) {
   .menu {
+    font-size: 20px;
     list-style-type: none;
     position: sticky;
     padding-left: 0px;
-    background-color: (113, 113, 207);
   }
 
   .logo {

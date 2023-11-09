@@ -38,32 +38,32 @@ This was not perfect!! But a quick fix.
 <body>
 
     <header id="header">
-        <nav class="nav1">
+        <nav class="ffncolor">
             <input id="burger-toggle" type="checkbox">
             <label class="humburger-toggle-container" for="burger-toggle">
                 <div class="menu-icon"></div>
             </label>
+           
 
-                <div class="logo">
-                    <div class="imgFFN">
-                        <div class="hover">
-                            <img src="image\avisnavn.png" alt="Fake Fantasy News" />
-                        </div>
+            <div class="logo">
+                <div class="imgFFN">
+                    <div class="hover">
+                        <img src="image\avisnavn.png" alt="Fake Fantasy News" />
                     </div>
                 </div>
-
-            <ul class="menu">
-                <li><a class="nav" href="index.html">Introduction</a></li>
-                <li><a class="nav" href="accesibility.html">Accessibility</a></li>
-                <li><a class="nav" href="topic.html">Data1100</a></li>
-                <li><a class="nav" href="room1.html">Room1</a></li>
-                <li><a class="nav" href="room2.html">Room2</a></li>
-            </ul>
+            </div>
+            
+                <ul class="menu">
+                    <li><a class="nav" href="index.html">Introduction</a></li>
+                    <li><a class="nav" href="accesibility.html">Accessibility</a></li>
+                    <li><a class="nav" href="topic.html">Data1100</a></li>
+                    <li><a class="nav" href="room1.html">Room1</a></li>
+                    <li><a class="nav" href="room2.html">Room2</a></li>
+                </ul>  
         </nav>
     </header>
 
     <main>
-
 
         <!-- Sources of composed picture: 
         Oslomet auditorium picture: https://no.linkedin.com/posts/oslomet_vi-har-ventet-på-denne-dagen-i-hele-sommer-activity-7097221383297875968-eM5s ;
@@ -72,11 +72,21 @@ This was not perfect!! But a quick fix.
         <!-- Picture edited on photoshop by Yasmin Garcia Avalo -->
 
         <p>&nbsp;</p>
+        <p>&nbsp;</p>
 
         <div class="cover">
 
-            <img src="image/dragon-firebreathing-classes.webp"
-                alt="Dragon giving first Fire-Breathing class in old auditorium at OsloMets facilities">
+            <picture>
+                    
+                <source media="(min-width: 1000px)" srcset="image/dragon-firebreathing-classes.webp">
+            
+                <!-- IF page ≥ 800px, THEN this, ELSE next-->
+                
+                <img srcset="image/dragon-firebreathing-classes-small.png" alt="Dragon giving first Fire-Breathing class in old auditorium at OsloMets facilities">
+                
+                <!--srcset, not src-->     
+                
+            </picture>
 
             <p>&nbsp;</p>
 
