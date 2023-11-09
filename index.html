@@ -88,8 +88,23 @@ This was not perfect!! But a quick fix.
             <div class="text-boxes">
                 <h2> Innovation camp Group</h2>
 
-            <img src="image/web-developmenTeam.webp" alt="Three students with different interests working hard to learn the matrix">
-            <!-- Picture taken by: Ida TA: Source: Yasmins phone + Gathered png stickers from: https//wwww.canva.com ; Edited by Yasmin Garcia Avalo thru photoshop. -->
+                <picture>
+                    
+                    <source media="(min-width: 800px)" srcset="image/web-development-team.webp">
+                
+                    <!-- IF page ≥ 800px, THEN this, ELSE next-->
+
+                    <!--Sorry phone users, but the original image with the three of us was to big, and only 
+                        two of us were shown. Here is the image we're using instead for mobile version
+                        image not found: https://stock.adobe.com/no/search/images?k=no+image+available-->
+                    
+                    <img srcset="image/image-not-found.png" alt="Image not found">
+                    
+                    <!--srcset, not src-->     
+
+                </picture>
+
+                <!-- Picture taken by: Ida TA: Source: Yasmins phone + Gathered png stickers from: https//wwww.canva.com ; Edited by Yasmin Garcia Avalo thru photoshop. -->
 
                 <p> In the bustling setting of university, the paths of three unlikely friends crossed during the
                     Innovation camp's initial grouping of eight students. Emma, a creative multitalented artist with a flair for 
