@@ -92,13 +92,13 @@ p {
 }
 
 
-#flex-container > div {
+#flex-container>div {
   background-color: #ffffff;
   padding: 50px;
   border: 3px solid #ffffff;
 
-  margin-right:5px;
-  margin-left:5px;
+  margin-right: 5px;
+  margin-left: 5px;
 
   align-items: center;
   display: flex;
@@ -202,7 +202,7 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
     justify-content: center;
     list-style-type: none;
     right: 0;
-    
+
     padding-block: 29.3px;
     margin: 0px;
     text-align: center;
@@ -213,11 +213,11 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
     padding-right: 4rem;
   }
 
-  .ffncolor{
+  .ffncolor {
     background-color: #7EA8DF;
   }
-  
-  .oslometcolor{
+
+  .oslometcolor {
     background-color: #eca200;
   }
 }
