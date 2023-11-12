@@ -55,15 +55,20 @@ body {
   text-align: center;
 }
 
+img{
+  margin-left: -45px;
+}
+
 #photographer {
   color: rgb(212, 145, 19);
   font-size: 18px;
 }
 
+/*
 .oslomet {
   background: rgba(255, 166, 0, 0.87);
 }
-
+*/
 
 .imgFFN img {
   max-width: 100%;
