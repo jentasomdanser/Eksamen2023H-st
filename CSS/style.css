@@ -68,7 +68,7 @@ body {
 .imgFFN img {
   max-width: 100%;
   /* this line and the lines bellow brings flexibility in sizing when minimizing screen */
-  border-radius: 50%;
+  /* border-radius: 50%; */ /* Might look better without the radious** */
   border: 5px solid #7EA8DF;
 }
 
