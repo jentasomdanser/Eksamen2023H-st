@@ -44,8 +44,8 @@ body {
 
 
 .text-boxes {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 
@@ -53,6 +53,10 @@ body {
   align-content: center;
   justify-content: center;
   text-align: center;
+}
+
+.margin-left{
+  margin-left:-40px;
 }
 
 #photographer {
