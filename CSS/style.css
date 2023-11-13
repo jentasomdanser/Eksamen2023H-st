@@ -7,24 +7,24 @@
 }
 
 .h2 {
-  font-size: 20px;
+  font-size: 1.30rem;
 
 }
 
 .logo {
   position: absolute;
-  left: 0px;
+  left: 0rem;
   /*brings the logo to the very edge of page on the left side */
   padding-top: 0;
   margin-left: 0;
-  height: 150px;
-  width: 175px;
+  height: 9.375rem;
+  width: 10.938rem;
 }
 
 
 body {
   background-color: #ffffff;
-  margin: 40px;
+  margin: 2.5rem;
 }
 
 .cover {
@@ -44,8 +44,8 @@ body {
 
 
 .text-boxes {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 
@@ -61,7 +61,7 @@ body {
 
 #photographer {
   color: rgb(212, 145, 19);
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .oslomet {
@@ -73,7 +73,7 @@ body {
   max-width: 100%;
   /* this line and the lines bellow brings flexibility in sizing when minimizing screen */
   /* border-radius: 50%; */ /* Might look better without the radious** */
-  border: 5px solid #7EA8DF;
+  border: 0.313rem solid #7EA8DF;
 }
 
 
@@ -92,17 +92,17 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 
 #flex-container>div {
   background-color: #ffffff;
-  padding: 50px;
-  border: 3px solid #ffffff;
+  padding: 3.125rem;
+  border: 0.188rem solid #ffffff;
 
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 0.313rem;
+  margin-left: 0.313rem;
 
   align-items: center;
   display: flex;
@@ -163,9 +163,9 @@ p {
 
 /*Door animation, change between two images, https://www.youtube.com/watch?v=NHb3o3sP9iA*/
 .tc-container {
-  width: 400px;
-  height: 600px;
-  margin-top: 40px;
+  width: 25rem;
+  height: 37.5rem;
+  margin-top: 2.5rem;
   position: relative;
 }
 
@@ -198,19 +198,19 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
   display: none;
 }
 
-@media (min-width: 701px) {
+@media (min-width: 43.813rem) {
   .menu {
-    font-size: 20px;
+    font-size: 1.25rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     list-style-type: none;
     right: 0;
 
-    padding-block: 29.3px;
-    margin: 0px;
+    padding-block: 1.831rem;
+    margin: 0rem;
     text-align: center;
-    gap: 30px;
+    gap: 1.875rem;
   }
 
   .menu li {
@@ -226,12 +226,12 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 43.75rem) {
   .menu {
-    font-size: 20px;
+    font-size: 1.25rem;
     list-style-type: none;
     position: sticky;
-    padding-left: 0px;
+    padding-left: 0rem;
   }
 
   .logo {
@@ -242,8 +242,8 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
     display: block;
     background-image: url(../image/icon-menu.svg);
     background-size: cover;
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
   }
 
   .hamburger-toggle-container {
@@ -251,7 +251,7 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
   }
 
   .menu li {
-    height: 0px;
+    height: 0rem;
     overflow: hidden;
   }
 
@@ -266,7 +266,7 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
 
   nav {
     display: flex;
-    height: 40px;
+    height: 2.5rem;
 
   }
 }
