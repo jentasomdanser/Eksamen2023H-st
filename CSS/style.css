@@ -44,8 +44,8 @@ body {
 
 
 .text-boxes {
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 
@@ -56,7 +56,7 @@ body {
 }
 
 .margin-left{
-  margin-left:-40px;
+  margin-left:-2.5rem;
 }
 
 #photographer {
