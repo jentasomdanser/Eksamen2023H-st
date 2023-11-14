@@ -133,36 +133,6 @@ p {
 
 }
 
-/*
-
-.class-for-topic {
-  font-family: "Open Sans",Arial,Helvetica,sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: normal;
-  -webkit-text-size-adjust: 100%;
-  text-align: center;
-  justify-content: center;
-  align-content: center;
-}  
-
-p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.box-container {
-  background-color: white;
-  margin-left: 20px;
-  margin-right: 20px;
-  justify-content: center;
-  align-content: center;
-
-  font-size: 16px;
-  text-align: center;
-}
-
-*/
 
 /*Door animation, change between two images, https://www.youtube.com/watch?v=NHb3o3sP9iA*/
 .tc-container {
@@ -201,7 +171,7 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
   display: none;
 }
 
-@media (min-width: 43.813rem) {
+@media (min-width: 75.01rem) {
   .menu {
     font-size: 1.25rem;
     display: flex;
@@ -229,7 +199,7 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
   }
 }
 
-@media (max-width: 43.75rem) {
+@media (max-width: 75.0rem) {
   .menu {
     font-size: 1.25rem;
     list-style-type: none;
