@@ -24,6 +24,9 @@
 
 body {
   background-color: #ffffff;
+  margin: 0rem;
+}
+main {
   margin: 2.5rem;
 }
 
@@ -214,7 +217,7 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
   }
 
   .menu li {
-    padding-right: 4rem;
+    padding-right: 4rem; /* her ender paddingen mellom meny linjen*/
   }
 
   .ffncolor {
@@ -232,6 +235,7 @@ https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd
     list-style-type: none;
     position: sticky;
     padding-left: 0rem;
+    
   }
 
   .logo {
