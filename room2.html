@@ -71,13 +71,14 @@ This was not perfect!! But a quick fix.
 
         <div class="cover">
 
-            <picture>
+            <picture class="margin-left">
+            
+                <source media="(min-width: 62.5rem)" srcset="image/stone-henge-BIG.webp">
+                <source media="(max-width: 31.25rem)" srcset="image/stone-henge.XS.webp">
 
-                <source media="(min-width: 1000px)" srcset="image/singing-stone-henge.webp">
+                     <!--IF page ≥ 50rem, THEN this, ELSE next -->
 
-                <!-- IF page ≥ 800px, THEN this, ELSE next-->
-
-                <img srcset="image/singing-stone-henge-small.png"
+                <img srcset="image/stone-henge.SMALL.webp"
                     alt="Magical moment catched with music-camera of single stone singing to/with stone henge stones.">
 
                 <!--srcset, not src-->
