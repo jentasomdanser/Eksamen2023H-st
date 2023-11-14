@@ -1,5 +1,5 @@
 # Eksamen2023H-st
-Dette er vår hjemme eksamen til Data 1200
+Dette er vår hjemme eksamen til Data 1200. Når vi har sittet sammen har vi jobbet på en pc så det ser ut som en har gjort mer arbeid enn de andre, men alle har jobbet like mye. Vi har også brukt demoktrati innenfor design og konsepter som blir brukt i oppgaven.
 
 Oppgave teksten
 
